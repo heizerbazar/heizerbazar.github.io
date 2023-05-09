@@ -1,0 +1,341 @@
+/*Body*/
+body{
+/*PARA COLOCAR UNA IMAGEN DE FONFO*/
+   background-image:url("../imagenes/fondotv.png");
+/*PARA QUE NO SE REPITA LA IMAGEN DE FONDO*/
+   /*background-repeat: no repeat;*/
+/*PARA AJUSTAR EL TAMA;O DE LA IMAGEN*/
+  /* background-size: 100% 100%;*/
+/*PARA AGRAGR COLOR O JUNTAR COLOR CON LA IMAGEN*/
+   /*BACKGROUND-COLOR:#00000;*/
+/*PARA CAMBIAR EL TIPO DE LETRA*/
+    font-family:mi fuente;
+/*COLOR DE LA LETRA*/
+    font-size:50px;
+	color:#833502;
+} 
+
+hr{
+/*BORDER ES PARA LA LINEA TAMA;O DE PIXELES , TIPO DE LINEA Y DE COLOR*/
+   border:5px solid #833502;
+/*BORDER RADIUS ES PARA EL TWERMINO DE LAS ORILLAS EL RADIO QUE SE EXPRESA EN PIXELES*/
+   border-radius:5px;
+   border-width:80%;
+}
+
+p{
+/*TEX-ALING SE UTILIZA PARA ALINEAR EL TEXTO, POR DEFAULT ESTAN ORDENAS HACIA LA IZQUIERDA*/
+   text-align:justify;
+   font-size:35px;
+   color:#000000;
+   font-family:mi fuente;
+}
+
+table,td,tr{
+/*LINEA,GROSOR Y TIPO DE LINEA*/
+   border:8px solid;
+/*COLOR DE LA LINEA*/
+   border-color:#00000;
+/*ALINECION DEL TEXTO*/
+   text-align:center;
+/*COLOR DEL FONDO*/
+   background-color:#00000;
+}
+
+th{
+   background-color: width;
+}
+
+ul{
+/*INDICA EL TIPO DE VI;ETA , EN ESTE CASU UN CIRCULO TAMBIEN PUEDE SER UN CUADRO*/
+   list-style-type:circle;
+   list-style-position:inside;
+}
+
+ol{
+/*ALGUNOS DE LOS VALORES DE LIST-STYLE-TYPE SON: LOWER ALPHA;
+ a,b,c,d,e,f i,ii,iii,iv A,B,C,D,E,F I,II,III,IV*/
+   list-style-type: upper roman;
+   list-style-position: inside;
+}
+
+.pie{
+	font-family:jk;
+	font-size:16px;
+	color:#833502;
+	text-align:center;
+	font-weight:bold;
+}
+
+.tabla{
+	font-family:jk;
+	font-size:45px;
+	color:#FFFFFF;
+	text-align:center;
+	font-weight:bold;
+}
+
+@font-face{
+	font-family:mi fuente;
+	src: url("../fuentes/Sherman-Italic.tff");
+}
+
+.titulo{
+	text-align: center;
+	font-family: mifuente;
+	font-size:50px;
+	color:#833502;
+	font-weight:bold;
+}
+
+.imm{
+	width:400px;
+	height:400px;
+}
+
+.imt{
+	width:100px;
+	height:100px;
+	border:10px solid #833502;
+	padding:10px;
+}
+	
+
+.bts{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+}
+.otim{
+	width:450px;
+	height:450px;
+	border:10px solid #833502;
+	padding:10px;
+}
+
+.dar{width:250px;
+	height:250px;
+	border:10px solid #833502;
+	padding:10px;
+	
+}
+/*FUENTE DE G ES PARA LLAMAR UNA LETRA DE GOOGLE*/
+.fuentedegoogle{
+   font-family: 'Dancing Script', cursive;
+   font-size:28px
+}
+/*USO DE DIV S*/
+/*DIV O CAJA PARA EL EMCABEZADO*/
+
+
+*{
+	margin:10px;
+	padding:0px;
+}
+div#top{
+	width:85%;
+	height:100px;
+	background-color:#B68032;
+}
+
+div#principal{
+	margin:auto;
+	margin-top:10px;
+	width:95%;
+	height:600px;
+	background-image:url("../imagenes/cora.png");
+	background-repeat: no repeat;
+	background-size:100% 100%
+
+}
+div#piep{
+	margin-top:15px;
+	width:85;
+	height:100px;
+	background-color:#B68032;
+	background-repeat: no repeat;
+}
+div#segundo{
+	margin:auto;
+	margin-top:10px;
+	width:100%;
+	height:1250px;
+	background-image:url("../imagenes/cora.png");
+	background-repeat: no repeat;
+	background-size:100% 100%
+}
+.caja{
+	height:250px;
+	width:300px;
+	background:#B68032;
+	border:1px solid #B68032;
+	margin:10px;
+	color:#753D01;
+	text-align:center;
+	display:inline-block;
+}
+.caja:hover{
+	box-shadow:0 0 20px #753D01;
+	transform:scale(1.5);
+}
+.caja-texto{
+	padding-top:2px;
+	font-size:20px;
+	color:#753D01;
+	font-weight;bold;
+}
+.texto-adicional{
+	padding-top:5px;
+	font-size:20px;
+
+	
+}
+
+.carrousel{
+    width:600px;
+    margin:auto;
+    box-sizing:border-box;
+}
+.conteCarrousel{
+    width:100%;
+    height:400px;
+    overflow:hidden;
+    box-sizing:border-box;
+}
+.itemCarrousel{
+    position:relative;
+    width:100%;
+    height:100%;
+    box-sizing:border-box;
+}
+.itemCarrouselTarjeta{
+    width:100%;
+    height:100%;
+    box-sizing:border-box;
+}
+.itemCarrouselArrows{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    height:100%;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:20px;
+    box-sizing:border-box;
+}
+.itemCarrouselArrows >i :hover{
+    cursor:pointer;
+}
+.conterCarrouselController{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+}
+.conterCarrouselController >a{
+    text-decoration:none;
+    font-size:32px;
+    color:grey;
+}
+.itemCarrouselArrows >a >i {
+    color:white;
+}
+div#lil{
+	margin:auto;
+	margin-top:10px;
+	width:100%;
+	height:1750px;
+	background-image:url("../imagenes/cora.png");
+	background-repeat: no repeat;
+	background-size:100% 100%
+}
+
+div#jungkook{
+	margin:auto;
+	margin-top:10px;
+	width:300px;
+	height:300px;
+	background-image:url("../imagenes/dardar.png");
+	background-repeat: no repeat;
+background-size:100% 100%;
+}
+
+.tae{
+	width:200px;
+	height:200px;
+	border:10px solid #833502;
+	padding:10px;
+}
+.cabecera {
+    background-image:url("../imagenes/cora.png");
+    width: 150;
+	height:150;
+    color: #ffffff;
+    padding: 2% ;
+    font-family: 'Questrial';
+    overflow: auto;
+
+}   
+
+
+
+}
+div#jin{
+	margin:auto;
+	margin-top:10px;
+	width:100%;
+	height:2200px;
+	background-image:url("../imagenes/cora.png");
+	background-repeat: no repeat;
+	background-size:100% 100%
+}
+
+div#namjoon{
+	
+    margin:auto;
+	margin-top:10px;
+	width:100%;
+	height:1350px;
+	background-image:url("../imagenes/cora.png");
+	background-repeat: no repeat;
+	background-size:100% 100%
+}
+
+.jisoo{
+	width:400px;
+	height:300px;
+	border:10px solid #833502;
+	padding:10px;
+}
+div#natzu{
+	margin:auto;
+	margin-top:10px;
+	width:600px;
+	height:150px;
+	background-image:url("../imagenes/cafe990.png");
+	background-repeat: no repeat;
+	background-size:100% 100%
+}
+.textete{
+	padding-top:2px;
+	font-size:20px;
+	color:#ffffff;
+	font-weight;bold;
+}
+.menu{
+	height:150px;
+	width:230px;
+	border-radius:50%;
+	
+    
+	text-align:center;
+	display:inline-block;
+}
+.menu:hover{
+	box-shadow:0 0 12px #8A5B2D;
+	transform:scale (1.3);
+	
+}
